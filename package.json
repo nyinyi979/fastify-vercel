@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p tsconfig.json",
-    "start": "node ./src/index.js"
+    "start": "node ./src/index.js",
+    "vercel": "tsc -p tsconfig.json && node ./src/index.js"
   },
   "keywords": [],
   "author": "",
