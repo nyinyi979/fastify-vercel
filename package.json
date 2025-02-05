@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./index",
     "build": "tsc -p tsconfig.json",
-    "vercel-build": "tsc -p tsconfig.json",
+    "vercel-build": "echo hello",
     "dev": "npx nodemon index"
   },
   "keywords": [],
