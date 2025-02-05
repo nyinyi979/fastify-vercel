@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index",
-    "build": "tsc -p tsconfig.json",
+    "local-build": "tsc -p tsconfig.json",
     "vercel-build": "echo hello",
     "dev": "npx nodemon index"
   },
