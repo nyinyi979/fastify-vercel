@@ -6,7 +6,7 @@
   "scripts": {
     "vercel": "vercel dev",
     "build": "tsc -p tsconfig.json",
-    "dev": "node ./api/index.js"
+    "dev": "node ./src/index.js"
   },
   "author": "",
   "license": "ISC",
