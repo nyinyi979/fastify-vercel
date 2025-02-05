@@ -1,0 +1,22 @@
+{
+  "name": "fastify-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "vercel": "vercel dev",
+    "build": "tsc -p tsconfig.json",
+    "dev": "node ./api/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@vercel/node": "^2.6.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fastify": "^5.2.1"
+  }
+}
