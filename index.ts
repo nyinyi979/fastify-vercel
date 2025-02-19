@@ -1,13 +1,12 @@
 import fastify from 'fastify'
+import contactRoutes from './routes/contactRoutes';
 
 const server = fastify()
 
-server.get('/ping', async (request, reply) => {
-  return 'pong\n'
+server.get('/', async (request, reply) => {
+  return 'Hello world';
 })
-server.get('/', async(request, reply)=>{
-    return 'Hello world';
-})
+server.register(contactRoutes, { prefix: '/api' })
 server.listen({ port: 8080 }, (err, address) => {
   if (err) {
     console.error(err)
